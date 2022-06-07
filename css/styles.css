@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* The Navigation section */
+header {
+    background-color: rgb(14, 241, 71);
+}
+
+header ul img {
+    width: 5vmax;
+    margin-left: 2.9vmax;
+    margin-top: 1.5vmax;
+    margin-right: 34vmax;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    text-decoration: none;
+    font-size: 2.8vmax;
+    margin-left: 1.2vmax;
+    color: rgba(0, 0, 0, 0.719);
+}
+
+
+header ul li a :hover {}
+
+/* The Banner ection of the page  */
+
+section {
+    text-align: center;
+    background-image: url(../image/Used-2017-McLaren-570GT.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vmax;
+}
+
+section h2 {
+    font-size: 12vmax;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-repeat: no-repeat;
+    margin-top: 8.5vmax;
+    color: rgb(67, 209, 38);
+    text-shadow: 2px 3px rgb(0, 0, 0);
+}
+section p{
+    font-size: 3vmax;
+    font-style: var(1.6vmax);
+    color: rgb(250, 250, 17);
+}
+
+section button {
+    font-size: 3.1vmax;
+    margin-left: 9px;
+    border-radius: 4vmax;
+    background-color: rgb(224, 190, 36);
+    color: rgb(10, 10, 9);
+    border-style: none;
+    width: 26vmax;
+
+}
+
+section button:hover {
+    color: darkorange;
+
+}
+
+footer {
+    background-color: rgb(194, 182, 21);
+    text-align: center;
+    height: 6vmax;
+
+
+}
+
+footer label {
+    margin-left: 9vmax;
+    margin-top: 3vmax;
+}
+
+footer a {
+    color: rgb(114, 228, 8);
+}
+
+footer a:hover {
+    color: crimson;
+
+}
